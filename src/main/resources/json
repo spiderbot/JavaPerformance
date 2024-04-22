@@ -1,0 +1,71 @@
+{
+    "messageId": "US055160820464240315110839_10227838640",
+    "orderId": "US055160820464240315110839",
+    "tcNo": "US055160820464240315110839",
+    "docType": "CLUB_RETURN_ORDER",
+    "transactionNumber": "464",
+    "orderDate": "2024-03-15T16:08:39.000+0000",
+    "documentType": "CLUB_RETURN_ORDER",
+    "hasMemberTransaction": true,
+    "tlogSource": "MTH",
+    "orderSource": "CLUB",
+    "orderChannel": "US_SAMS_EXPRESS_RETURNS",
+    "registerNbr": "82",
+    "membershipAccountNbr": "10227838640",
+    "membershipSeventeen": "10134100227838640",
+    "orderLineInvoices": [
+        {
+            "clubNumber": "5516",
+            "invoiceNo": "US055160820464240315110839",
+            "invoiceDate": "2024-03-15T16:08:39.000+0000",
+            "invoiceOrderLocalDate": "2024-03-15T11:08:39-05:00",
+            "itemNumber": "101",
+            "departmentNumber": "99",
+            "upcCode": "40630001014",
+            "shortDescription": "PRIMARYCLUB",
+            "quantity": 1,
+            "price": 50.0,
+            "status": "RETURNED",
+            "lineTotal": -50.0,
+            "derivedFromOrder": "020311787246659651929",
+            "bundleParent": false,
+            "discountInfos": []
+        },
+        {
+            "clubNumber": "5516",
+            "invoiceNo": "US055160820464240315110839",
+            "invoiceDate": "2024-03-15T16:08:39.000+0000",
+            "invoiceOrderLocalDate": "2024-03-15T11:08:39-05:00",
+            "itemNumber": "118",
+            "departmentNumber": "99",
+            "upcCode": "40630001189",
+            "shortDescription": "PLUSRENEWAL",
+            "quantity": 1,
+            "price": 60.0,
+            "status": "RETURNED",
+            "lineTotal": -60.0,
+            "derivedFromOrder": "020311787246659651929",
+            "bundleParent": false,
+            "discountInfos": []
+        }
+    ],
+    "clubNbr": "5516",
+    "payments": [
+        {
+            "paymentReference2": "2354e406-2119-335b-9ebf-87f7cfdd1fcd",
+            "paymentReference3": "0002",
+            "totalCharged": 10.0,
+            "paymentType": "MASTERCARD_TENDER",
+            "refundedAmount": 0.0,
+            "isTotalChargedNegative": true
+        },
+        {
+            "paymentReference2": "147cc684-d0ce-323e-9baa-64475ef7a537",
+            "totalCharged": 110.45,
+            "paymentType": "CASH_TENDER_CHG",
+            "refundedAmount": 0.0,
+            "isTotalChargedNegative": true
+        }
+    ],
+    "localOrderDate": "2024-03-15T11:08:39-05:00"
+}

@@ -1,4 +1,4 @@
-package com.giacom.javamelody.monitordemo;
+package com.piyush.java.performance;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

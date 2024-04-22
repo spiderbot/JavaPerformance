@@ -1,4 +1,4 @@
-package com.giacom.javamelody.monitordemo.controller;
+package com.piyush.java.performance.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
