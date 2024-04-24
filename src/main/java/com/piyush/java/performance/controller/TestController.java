@@ -2,6 +2,7 @@ package com.piyush.java.performance.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,6 +33,7 @@ public class TestController {
     public Map<String, String> getData(){
         String uuid = UUID.randomUUID().toString();
         trackerMap.put(uuid,uuid);
+        MDC.put("transactionId", uuid);
         log.info("received request -> " + uuid);
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/p0j01x0/files/" + uuid));
